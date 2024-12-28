@@ -3,7 +3,8 @@
   "type": "project",
   "keywords": [
     "high performance",
-    "http service"
+    "http service",
+    "t2 engine"
   ],
   "homepage": "https://www.t2engine.cn",
   "license": "MIT",
