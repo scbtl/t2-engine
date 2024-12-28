@@ -12,21 +12,22 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+use app\Env;
+
 return [
     // 默认数据库
-    'default'     => 'mysql',
+    'default'     => Env::get('DB_TYPE', 'mysql'),
     // 各种数据库配置
     'connections' => [
-
         'mysql' => [
             'driver'      => 'mysql',
-            'host'        => '127.0.0.1',
-            'port'        => 3306,
-            'database'    => 'webman',
-            'username'    => 'webman',
-            'password'    => '',
+            'host'        => Env::get('DB_HOST', '127.0.0.1'),
+            'port'        => Env::get('DB_PORT', 3306),
+            'database'    => Env::get('DB_NAME', 't2_engine'),
+            'username'    => Env::get('DB_USER', 'root'),
+            'password'    => Env::get('DB_PASS', '123456'),
             'unix_socket' => '',
-            'charset'     => 'utf8',
+            'charset'     => Env::get('DB_CHARSET', 'utf8'),
             'collation'   => 'utf8_unicode_ci',
             'prefix'      => '',
             'strict'      => true,
