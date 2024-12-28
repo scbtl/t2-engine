@@ -9,6 +9,6 @@ class IndexController
      */
     public function index(): string
     {
-        return 'index';
+        return view('index');
     }
 }
