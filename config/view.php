@@ -12,10 +12,8 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-use app\view\Raw;
 use app\view\Twig;
-use app\view\Blade;
 
 return [
-    'handler' => Raw::class
+    'handler' => Twig::class
 ];
