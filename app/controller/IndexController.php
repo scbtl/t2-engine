@@ -2,12 +2,14 @@
 
 namespace app\controller;
 
+use app\Response;
+
 class IndexController
 {
     /**
-     * @return string
+     * @return Response
      */
-    public function index(): string
+    public function index(): Response
     {
         return view('index');
     }
