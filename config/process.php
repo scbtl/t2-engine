@@ -31,7 +31,7 @@ return [
         'context'     => [],
         'constructor' => [
             'requestClass' => Request::class,
-            'logger'       => Log::channel('default'),
+            'logger'       => Log::channel(),
             'appPath'      => app_path(),
             'publicPath'   => public_path()
         ]

@@ -14,8 +14,8 @@
 
 namespace app\middleware;
 
-use app\Request;
-use app\Response;
+use t2\Http\Response;
+use t2\Http\Request;
 use t2\MiddlewareInterface;
 
 class StaticFile implements MiddlewareInterface
