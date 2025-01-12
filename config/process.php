@@ -39,6 +39,7 @@ return [
 
     // File update detection and automatic reload
     'Monitor'   => [
+        'enable'      => true,
         'handler'     => Monitor::class,
         'reloadable'  => false,
         'constructor' => [
