@@ -12,7 +12,11 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+use app\middleware\StaticFile;
+
 return [
-    'enable'     => false,
-    'middleware' => [],
+    'enable'     => true,
+    'middleware' => [
+        StaticFile::class, // Static file Middleware
+    ],
 ];
