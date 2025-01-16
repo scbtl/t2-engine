@@ -1,0 +1,45 @@
+{
+  "name": "scbtl/t2-engine",
+  "type": "project",
+  "keywords": [
+    "high performance",
+    "http service",
+    "t2 engine"
+  ],
+  "homepage": "https://www.t2engine.cn",
+  "license": "MIT",
+  "description": "High performance HTTP Service Framework.",
+  "authors": [
+    {
+      "name": "Tony",
+      "email": "lucky@t2engine.cn",
+      "homepage": "https://www.t2engine.cn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "lucky@t2engine.cn",
+    "issues": "https://github.com/scbtl/t2/issues",
+    "forum": "https://forum.t2engine.cn/",
+    "wiki": "https://doc.t2engine.cn/",
+    "source": "https://github.com/scbtl/t2"
+  },
+  "require": {
+    "php": ">=8.3",
+    "scbtl/t2-framework": "^1.0.0"
+  },
+  "suggest": {
+    "ext-event": "For better performance. "
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./app",
+      "App\\": "./app"
+    },
+    "psr-0": {
+      "": "extend/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
