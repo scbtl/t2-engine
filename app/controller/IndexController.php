@@ -14,15 +14,20 @@
 
 namespace app\controller;
 
-use app\Response;
+use App\Response;
 
 class IndexController
 {
     /**
-     * @return Response
+     * @return false|mixed|string
      */
-    public function index(): Response
+    public function index(): mixed
     {
-        return view('index');
+        static $readme;
+        if (!$readme) {
+            $readme = file_get_contents(base_path('README.md'));
+        }
+
+        return $readme;
     }
 }

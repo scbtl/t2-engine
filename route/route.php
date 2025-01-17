@@ -12,7 +12,7 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-use t2\Route;
+use T2\Route;
 
 // 禁用主项目默认路由，不影响应用插件
 //Route::disableDefaultRoute();
