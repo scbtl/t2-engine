@@ -14,8 +14,6 @@
 
 namespace app\controller;
 
-use App\Response;
-
 class IndexController
 {
     /**
