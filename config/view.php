@@ -13,7 +13,8 @@
  */
 
 use App\View\Twig;
+use App\View\Raw;
 
 return [
-    'handler' => Twig::class
+    'handler' => Raw::class
 ];
