@@ -26,8 +26,7 @@
   },
   "require": {
     "php": ">=8.3",
-    "scbtl/t2-framework": "^1.0.0",
-    "monolog/monolog": "^3.8"
+    "scbtl/t2-framework": "^1.0.0"
   },
   "suggest": {
     "ext-event": "For better performance."
