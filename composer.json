@@ -41,17 +41,6 @@
       "": "extend/"
     }
   },
-  "scripts": {
-    "post-package-install": [
-      "App\\Install::install"
-    ],
-    "post-package-update": [
-      "App\\Install::install"
-    ],
-    "pre-package-uninstall": [
-      "App\\Install::uninstall"
-    ]
-  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
